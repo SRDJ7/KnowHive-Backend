@@ -176,14 +176,14 @@ tokenizer.add_special_tokens({'pad_token': '[PAD]'})
 # Define the training arguments
 training_args = TrainingArguments(
     #output_dir="E:\LLM_Model_Outputs\gpt2\incident_model",
-    output_dir="incident_model",
+    output_dir="./incident_model",
     overwrite_output_dir=True,
     num_train_epochs=1,
     per_device_train_batch_size=1,
     save_steps=10_000,
     save_total_limit=2,
     #logging_dir="E:\LLM_Model_Outputs\gpt2\logs",
-    logging_dir="logs",
+    logging_dir="./logs",
 
 )
 
@@ -214,12 +214,12 @@ if not os.path.exists(training_args.output_dir):
 
     # Save the fine-tuned model checkpoint
     #trainer.save_model("E:\LLM_Model_Outputs\gpt2\incident_model_checkpoint")
-    trainer.save_model("incident_model_checkpoint")
+    trainer.save_model("./incident_model_checkpoint")
 
 else:
     # Load the pre-trained model checkpoint
     #model = GPT2LMHeadModel.from_pretrained("E:\LLM_Model_Outputs\gpt2\incident_model_checkpoint")
-    model = GPT2LMHeadModel.from_pretrained("incident_model_checkpoint")
+    model = GPT2LMHeadModel.from_pretrained("./incident_model_checkpoint")
 
 tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
 
