@@ -177,7 +177,7 @@ tokenizer.add_special_tokens({'pad_token': '[PAD]'})
 training_args = TrainingArguments(
     #output_dir="E:\LLM_Model_Outputs\gpt2\incident_model",
     output_dir="./incident_model",
-    overwrite_output_dir=True,
+    overwrite_output_dir=False, # was True
     num_train_epochs=1,
     per_device_train_batch_size=1,
     save_steps=10_000,
