@@ -16,9 +16,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-        with:
-          submodules: true
-          lfs: true
 
       - name: Set up Python version
         uses: actions/setup-python@v1
@@ -69,4 +66,4 @@ jobs:
         with:
           app-name: 'knowhive-app'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DBD047BA7D684C9AAA0E7A59A417DDD2 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B8FE7D9CD8B94DE3885CEAE90C9D303C }}
