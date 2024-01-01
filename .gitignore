@@ -1,0 +1,4 @@
+# Ignore incident_model and incident_model_checkpoint directories
+incident_model/
+incident_model_checkpoint/
+__pycache__/

@@ -308,11 +308,11 @@ def ask():
 
         # Fetch only the most recent conversation history entry for the user
         user_conversation_history = ConversationHistory.query.filter_by(user_id=current_user.id).order_by(ConversationHistory.id.desc()).first()
-        if user_conversation_history:
+       # if user_conversation_history:
             # Return the answer in the response
-            return jsonify({'message': new_answer["answer"]}), 200
-        else:
-            return jsonify({'error': 'No conversation history found!'}), 404
+        return jsonify({'message': new_answer["answer"]}), 200
+       # else:
+       #     return jsonify({'error': 'No conversation history found!'}), 404
 
     # If no question has been asked yet, return an error
     return jsonify({'error': 'Invalid request'}), 400
@@ -321,6 +321,20 @@ def ask():
 # if __name__ == '__main__':
 #     app.run(debug=True)
 # The port was 5000, but Azure is pinging on 8000.
-# It is giving application error.....
+# It is giving application error......
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=int(os.environ.get('PORT', 8000)))
+     app.run(debug=True, host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
+
+
+#if __name__ == '__main__':
+    # Path to your self-signed certificate and private key
+#    cert_path = '/etc/letsencrypt/live/knowhive-ai.centralindia.cloudapp.azure.com/fullchain.pem'
+#    key_path = '/etc/letsencrypt/live/knowhive-ai.centralindia.cloudapp.azure.com/privkey.pem'
+
+    # Run the app with HTTPS enabled
+#    app.run(
+#        debug=True,
+#        host='0.0.0.0',
+#        port=int(os.environ.get('PORT', 5000)),
+#       ssl_context=(cert_path, key_path)
+#    )
