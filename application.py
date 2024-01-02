@@ -26,7 +26,8 @@ import jwt
 app = Flask(__name__)
 CORS(app)
 app.config['SECRET_KEY'] = 'State2244'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://knowhive_root:VpCeB32en@knowhive-mysql-server.mysql.database.azure.com/conversation_history'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://knowhive_root:VpCeB32en@knowhive-azure-mysql-server-1.mysql.database.azure.com/conversation_history'
+#app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://knowhive_root:VpCeB32en@knowhive-mysql-server.mysql.database.azure.com/conversation_history'
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:VpCeB32en@localhost/conversation_history'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SESSION_TYPE'] = 'filesystem'  # Configure Flask-Session
