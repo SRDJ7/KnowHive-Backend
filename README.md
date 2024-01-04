@@ -36,7 +36,7 @@ This backend serves as the core of a Conversational AI system that allows users 
 Create a MySQL database named `conversation_history`
 
 4. __Run the Flask app:__
-`python app.py`
+`python application.py`
 
 ## Usage
 1. Access the application at `http://127.0.0.1:5000/` in your web browser.
