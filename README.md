@@ -26,23 +26,17 @@ This backend serves as the core of a Conversational AI system that allows users 
 
 ## Setup
 
-1. Clone the repository:
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+1. __Clone the repository:__
+`git clone https://github.com/SRDJ7/KnowHive-Backend`
 
-2. Install dependencies:
-pip install -r requirements.txt
+2. __Install dependencies:__
+`pip install -r requirements.txt`
 
-3. Set up the MySQL database:
-Create a MySQL database named conversation_history or update the SQLALCHEMY_DATABASE_URI in app.config accordingly.
+3. __Set up the MySQL database:__
+Create a MySQL database named `conversation_history`
 
-4. Run the database migrations:
-flask db init
-flask db migrate
-flask db upgrade
-
-5. Run the Flask app:
-python app.py
+4. __Run the Flask app:__
+`python app.py`
 
 ## Usage
 1. Access the application at `http://127.0.0.1:5000/` in your web browser.
@@ -55,3 +49,7 @@ python app.py
 * `/logout` (GET): User logout endpoint.
 * `/conversation-history` (GET): Retrieve user conversation history.
 * `/ask` (POST): Ask a question and get a response from the Conversational AI system.
+
+## Azure Deployment Screenshots
+
+
