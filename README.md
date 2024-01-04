@@ -62,11 +62,11 @@ Overview of deployed KnowHive VM in Azure
 </p>
 
 <p align="center">
-<img width="960" alt="user table" src="https://github.com/SRDJ7/KnowHive-Backend/assets/67571677/ab655aae-fc9c-4012-8031-1077263c7b2c">
-Screenshot of user table in the Azure MySQL DB
+<img width="960" alt="conversation_history table" src="https://github.com/SRDJ7/KnowHive-Backend/assets/67571677/ab655aae-fc9c-4012-8031-1077263c7b2c">
+Screenshot of conversation_history table in the Azure MySQL DB
 </p>
 
 <p align="center">
-<img width="960" alt="conversation_history table" src="https://github.com/SRDJ7/KnowHive-Backend/assets/67571677/d7729b9e-50a9-4da3-8302-e24049fb0afa">
-Screenshot of conversation_history table in the Azure MySQL DB
+<img width="960" alt="user table" src="https://github.com/SRDJ7/KnowHive-Backend/assets/67571677/d7729b9e-50a9-4da3-8302-e24049fb0afa">
+Screenshot of user table in the Azure MySQL DB
 </p>
