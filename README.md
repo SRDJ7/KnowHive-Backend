@@ -51,5 +51,22 @@ Create a MySQL database named `conversation_history`
 * `/ask` (POST): Ask a question and get a response from the Conversational AI system.
 
 ## Azure Deployment Screenshots
+<p align="center">
+<img width="960" alt="Overview of KnowHive Resource Group in Azure" src="https://github.com/SRDJ7/KnowHive-Backend/assets/67571677/73db9f0a-4e1f-4d94-9419-3cc38f9f40ba">
+Overview of KnowHive Resource Group in Azure
+</p>
 
+<p align="center">
+<img width="960" alt="Overview of deployed KnowHive VM in Azure" src="https://github.com/SRDJ7/KnowHive-Backend/assets/67571677/95f5e7a0-7229-4b68-b366-433eef5b7158">
+Overview of deployed KnowHive VM in Azure
+</p>
 
+<p align="center">
+<img width="960" alt="user table" src="https://github.com/SRDJ7/KnowHive-Backend/assets/67571677/ab655aae-fc9c-4012-8031-1077263c7b2c">
+Screenshot of user table in the Azure MySQL DB
+</p>
+
+<p align="center">
+<img width="960" alt="conversation_history table" src="https://github.com/SRDJ7/KnowHive-Backend/assets/67571677/d7729b9e-50a9-4da3-8302-e24049fb0afa">
+Screenshot of conversation_history table in the Azure MySQL DB
+</p>
