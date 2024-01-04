@@ -50,6 +50,9 @@ Create a MySQL database named `conversation_history`
 * `/conversation-history` (GET): Retrieve user conversation history.
 * `/ask` (POST): Ask a question and get a response from the Conversational AI system.
 
+## KnowHive Frontend Github repository ##
+To access the KnowHive frontend code [Click Here](https://github.com/SRDJ7/KnowHive-Frontend)
+
 ## Azure Deployment Screenshots
 <p align="center">
 <img width="960" alt="Overview of KnowHive Resource Group in Azure" src="https://github.com/SRDJ7/KnowHive-Backend/assets/67571677/73db9f0a-4e1f-4d94-9419-3cc38f9f40ba">
